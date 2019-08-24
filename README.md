@@ -1,15 +1,8 @@
-# Starter for deploying [fast.ai](https://www.fast.ai) models on [Render](https://render.com)
+# A web application for an eye disease prediction model
 
-This repo can be used as a starting point to deploy [fast.ai](https://github.com/fastai/fastai) models on Render.
+The entire template for the application was forked and modified from [render-examples]( https://github.com/render-examples ) for [fastai-v3](https://github.com/render-examples/fastai-v3)
 
-The sample app described here is up at https://fastai-v3.onrender.com. Test it out with bear images!
-
-You can test your changes locally by installing Docker and using the following command:
-
-```
-docker build -t fastai-v3 . && docker run --rm -it -p 5000:5000 fastai-v3
-```
-
-The guide for production deployment to Render is at https://course.fast.ai/deployment_render.html.
-
-Please use [Render's fast.ai forum thread](https://forums.fast.ai/t/deployment-platform-render/33953) for questions and support.
+The model was trained with the fastai library and the resnet34 architecture. The dataset was obtained from google images and cleaned. 
+To know more about how :
+* the model was built click [here](https://github.com/fastai/course-v3/blob/master/nbs/dl1/lesson2-download.ipynb)
+* the model was deployed click [here](https://course.fast.ai/deployment_render.html)
